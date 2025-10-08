@@ -5,9 +5,16 @@
   "license": "MIT",
   "author": "Debamrita Paul",
   "type": "module",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "bin": {
     "nerdy-animal-names": "./dist/cli.js"
   },
@@ -15,7 +22,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
     "dev": "tsc --watch",
     "prepublishOnly": "npm run build",
     "lint": "echo \"no lint configured\""
