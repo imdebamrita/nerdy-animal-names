@@ -1,13 +1,24 @@
 {
   "name": "nerdy-animal-names",
-  "version": "1.0.2",
-  "description": "Lightweight, collision-safe nerdy and funny animal name generator (like Google Docs). Zero runtime deps.",
+  "version": "1.0.4",
+  "description": "Random animal name generator for JavaScript & CLI. Create nerdy, funny, unique names like Google Docs. Lightweight, collision-safe, and zero dependencies.",
   "license": "MIT",
-  "author": "Debamrita Paul",
+  "author": {
+    "name": "Debamrita Paul",
+    "url": "https://github.com/imdebamrita"
+  },
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imdebamrita/nerdy-animal-names"
+  },
+  "homepage": "https://github.com/imdebamrita/nerdy-animal-names#readme",
+  "bugs": {
+    "url": "https://github.com/imdebamrita/nerdy-animal-names/issues"
+  },
   "bin": {
     "nerdy-animal-names": "./dist/cli.js"
   },
@@ -21,31 +32,24 @@
     "lint": "echo \"no lint configured\""
   },
   "keywords": [
-    "names",
-    "random",
-    "nerdy",
-    "animal",
-    "generator",
-    "identifier",
-    "unique",
-    "collision-safe",
-    "codename",
-    "testing",
-    "temporary",
-    "funny",
-    "cute",
-    "tech",
-    "programming",
-    "geek",
-    "namespace",
-    "slug",
-    "uuid",
-    "memorable",
-    "human-readable",
-    "cli",
-    "typescript",
-    "lightweight",
-    "id-generator"
+    "random animal name generator",
+    "animal names",
+    "funny animal name",
+    "random name",
+    "name generator",
+    "unique id",
+    "slug generator",
+    "google docs name generator",
+    "nerdy names",
+    "memorable names",
+    "cli tool",
+    "javascript",
+    "typescript library",
+    "npm package",
+    "funny names",
+    "geeky names",
+    "project names",
+    "pet names generator"
   ],
   "engines": {
     "node": ">=14"

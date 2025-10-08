@@ -1,24 +1,46 @@
-# nerdy-animal-names
+# Nerdy Animal Names — Random Animal Name Generator
 
 [![npm version](https://badge.fury.io/js/nerdy-animal-names.svg)](https://www.npmjs.com/package/nerdy-animal-names)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js->=14-green.svg)](https://nodejs.org/)
+[![npm downloads](https://img.shields.io/npm/dm/nerdy-animal-names.svg)](https://www.npmjs.com/package/nerdy-animal-names)
+[![GitHub stars](https://img.shields.io/github/stars/imdebamrita/nerdy-animal-names?style=social)](https://github.com/imdebamrita/nerdy-animal-names)
 
-> Lightweight, collision-safe nerdy and funny animal name generator (like Google Docs). Zero runtime dependencies.
+> Nerdy Animal Names is a random animal name generator for JavaScript and the CLI. It creates funny, nerdy, and unique names like Google Docs — perfect for containers, test data, project names, or any place you need a memorable, collision-safe identifier.
 
 Generate memorable, collision-resistant names perfect for temporary resources, development environments, container names, or anything that needs a fun, unique identifier.
 
+## Table of Contents
+
+- [Features](#features)
+- [Why This Random Animal Name Generator?](#why-this-random-animal-name-generator)
+- [Quick Start](#quick-start)
+- [API Reference](#api-reference)
+- [CLI Options](#cli-options)
+- [Use Cases](#use-cases)
+- [TypeScript](#typescript)
+- [Contributing](#contributing)
+
 ## Features
 
+- **Nerdy prefixes + animal names**: Tech-themed prefixes combined with cute animal names like “Quantum Otter” or “Cyber Capybara”
 - **Collision-safe**: Combines random numbers and hashes for uniqueness
-- **Nerdy prefixes**: Tech-themed words like "quantum", "cyber", "nano"
-- **Cute animals**: Carefully curated list of adorable animals
 - **Flexible formatting**: Customizable separators, capitalization, and components
 - **Zero dependencies**: No runtime dependencies, lightweight bundle
 - **TypeScript ready**: Full type definitions included
 - **Dual usage**: Use as a library or CLI tool
 - **Fast**: Optimized for performance with minimal overhead
+
+## Why This Random Animal Name Generator?
+
+Most random name libraries are either too simple or too heavy. This package strikes the balance:
+
+- Creates unique, **collision-safe random animal names**
+- Mimics Google Docs–style codenames like `Quantum-Smart-Otter`
+- Works both in JavaScript projects and the CLI
+- No dependencies, blazing fast
+- Perfect for Docker containers, testing, environments, or playful project naming
 
 ## Quick Start
 
@@ -175,6 +197,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. Here are s
 - Add new formatting options
 - Improve documentation
 - Report bugs or suggest features
+- Help us make this the best random animal name generator on npm by adding more prefixes, animals, or fun ideas!
 
 ### Development Setup
 
@@ -215,4 +238,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Made with ❤️ + ☕ by [Debamrita Paul](https://github.com/imdebamrita)
 
-_Need a quick name? Try it now: `npx nerdy-animal-names`_
+_The easiest way to generate nerdy, funny, and unique random animal names — anywhere. Need a quick name? Try it now: `npx nerdy-animal-names`_
