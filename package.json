@@ -1,6 +1,6 @@
 {
   "name": "nerdy-animal-names",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lightweight, collision-safe nerdy and funny animal name generator (like Google Docs). Zero runtime deps.",
   "license": "MIT",
   "author": "Debamrita Paul",
