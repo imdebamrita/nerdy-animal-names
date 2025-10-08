@@ -1,4 +1,4 @@
-# 🤖 nerdy-animal-names
+# nerdy-animal-names
 
 [![npm version](https://badge.fury.io/js/nerdy-animal-names.svg)](https://www.npmjs.com/package/nerdy-animal-names)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
@@ -9,18 +9,18 @@
 
 Generate memorable, collision-resistant names perfect for temporary resources, development environments, container names, or anything that needs a fun, unique identifier.
 
-## ✨ Features
+## Features
 
-- 🎯 **Collision-safe**: Combines random numbers and hashes for uniqueness
-- 🤖 **Nerdy prefixes**: Tech-themed words like "quantum", "cyber", "nano"
-- 🐾 **Cute animals**: Carefully curated list of adorable animals
-- 📝 **Flexible formatting**: Customizable separators, capitalization, and components
-- 🚀 **Zero dependencies**: No runtime dependencies, lightweight bundle
-- 🔧 **TypeScript ready**: Full type definitions included
-- 📦 **Dual usage**: Use as a library or CLI tool
-- ⚡ **Fast**: Optimized for performance with minimal overhead
+- **Collision-safe**: Combines random numbers and hashes for uniqueness
+- **Nerdy prefixes**: Tech-themed words like "quantum", "cyber", "nano"
+- **Cute animals**: Carefully curated list of adorable animals
+- **Flexible formatting**: Customizable separators, capitalization, and components
+- **Zero dependencies**: No runtime dependencies, lightweight bundle
+- **TypeScript ready**: Full type definitions included
+- **Dual usage**: Use as a library or CLI tool
+- **Fast**: Optimized for performance with minimal overhead
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -75,7 +75,7 @@ npx nerdy-animal-names --sep=_
 npx nerdy-animal-names --help
 ```
 
-## 📖 API Reference
+## API Reference
 
 ### `generateName(options?: Options): string`
 
@@ -124,7 +124,7 @@ generateName({
 // "astro_witty_quokka789jkl8"
 ```
 
-## 🎮 CLI Options
+## CLI Options
 
 The CLI supports the following flags:
 
@@ -138,7 +138,7 @@ The CLI supports the following flags:
 | `--hashlen=<n>` | Set hash length (default: 4)   |
 | `--help`        | Show help message              |
 
-## 🎯 Use Cases
+## Use Cases
 
 - **Container names**: `docker run --name quantum-smart-otter123abc4`
 - **Temporary files**: `temp_cyber_fluffy_penguin456def7.json`
@@ -147,7 +147,7 @@ The CLI supports the following flags:
 - **Code names**: Fun project or feature names
 - **Database fixtures**: Unique but readable test data
 
-## 🔧 TypeScript
+## TypeScript
 
 Full TypeScript support is included out of the box:
 
@@ -166,7 +166,7 @@ const options: Options = {
 const name: string = generateName(options);
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. Here are some ways you can contribute:
 
@@ -193,17 +193,17 @@ npm run build
 node dist/cli.js
 ```
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by the naming schemes used by Docker, Google Docs, and other services
 - Built with love for the developer community
 - Thanks to all contributors and users of this package
 
-## 📊 Package Stats
+## Package Stats
 
 - **Bundle size**: ~5KB minified
 - **Runtime dependencies**: 0
@@ -213,6 +213,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by [Debamrita Paul](https://github.com/imdebamrita)
+Made with ❤️ + ☕ by [Debamrita Paul](https://github.com/imdebamrita)
 
 _Need a quick name? Try it now: `npx nerdy-animal-names`_
