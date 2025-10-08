@@ -1,0 +1,59 @@
+{
+  "name": "nerdy-animal-names",
+  "version": "1.0.0",
+  "description": "Lightweight, collision-safe nerdy and funny animal name generator (like Google Docs). Zero runtime deps.",
+  "license": "MIT",
+  "author": "Debamrita Paul",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "nerdy-animal-names": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "lint": "echo \"no lint configured\""
+  },
+  "keywords": [
+    "names",
+    "random",
+    "nerdy",
+    "animal",
+    "generator",
+    "identifier",
+    "unique",
+    "collision-safe",
+    "codename",
+    "testing",
+    "temporary",
+    "funny",
+    "cute",
+    "tech",
+    "programming",
+    "geek",
+    "namespace",
+    "slug",
+    "uuid",
+    "memorable",
+    "human-readable",
+    "cli",
+    "typescript",
+    "lightweight",
+    "id-generator"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "licenseFile": "LICENSE",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "typescript": "^5.9.3"
+  }
+}
