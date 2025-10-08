@@ -1,6 +1,6 @@
 {
   "name": "nerdy-animal-names",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight, collision-safe nerdy and funny animal name generator (like Google Docs). Zero runtime deps.",
   "license": "MIT",
   "author": "Debamrita Paul",
@@ -8,13 +8,6 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "bin": {
     "nerdy-animal-names": "./dist/cli.js"
   },
@@ -22,7 +15,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "tsup src/index.ts --format esm && tsup src/index.ts --format cjs && tsup src/cli.ts --format esm && tsup src/cli.ts --format cjs && tsc --declaration --emitDeclarationOnly --outDir dist",
     "dev": "tsc --watch",
     "prepublishOnly": "npm run build",
     "lint": "echo \"no lint configured\""
@@ -61,6 +54,14 @@
   "private": false,
   "devDependencies": {
     "@types/node": "^24.7.0",
+    "tsup": "^8.5.0",
     "typescript": "^5.9.3"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
   }
 }
