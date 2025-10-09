@@ -1,6 +1,6 @@
 {
   "name": "nerdy-animal-names",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Random animal name generator for JavaScript & CLI. Create nerdy, funny, unique names like Google Docs. Lightweight, collision-safe, and zero dependencies.",
   "license": "MIT",
   "author": {
