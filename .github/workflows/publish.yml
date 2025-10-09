@@ -1,8 +1,9 @@
 name: Publish Package
 
 on:
-  release:
-    types: [created] # Triggers only when a new release is created
+  push:
+    branches:
+      - main
 
 jobs:
   publish:
